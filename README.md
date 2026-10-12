@@ -1,46 +1,23 @@
-<h1 align="center">Jellyfin for Android TV</h1>
-<h3 align="center">Part of the <a href="https://jellyfin.org">Jellyfin Project</a></h3>
+# Rayfield for Android TV
+
+**A TV-focused client for the Rayfield media ecosystem.**
+
+This repository contains Rayfield's Android TV client, based on Jellyfin for Android TV. It is intended for television and remote-control use, connecting to a compatible self-hosted media server so you can browse and play media from the comfort of your living room.
+
+## Project goals
+
+- **TV-first navigation** designed around directional-pad and remote-control interaction.
+- **Personal media access** through a compatible Rayfield/Jellyfin server.
+- **Open-source development** with a codebase that can be inspected and improved.
+- **Upstream-aware maintenance** that respects the project's Jellyfin lineage and existing notices.
+
+## Building locally
+
+The project uses Gradle and the Android SDK. The build instructions below explain how to generate a debug APK. Review the repository's license and attribution notices before redistributing modified builds.
+
+Rayfield is an independent project derived from Jellyfin for Android TV.
 
 ---
-
-<p align="center">
-<img alt="Logo banner" src="https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/banner-logo-solid.svg?sanitize=true"/>
-<br/><br/>
-<a href="https://github.com/jellyfin/jellyfin-androidtv">
-<img alt="GPL 2.0 License" src="https://img.shields.io/github/license/jellyfin/jellyfin-androidtv.svg"/>
-</a>
-<a href="https://github.com/jellyfin/jellyfin-androidtv/releases">
-<img alt="Current Release" src="https://img.shields.io/github/release/jellyfin/jellyfin-androidtv.svg"/>
-</a>
-<a href="https://translate.jellyfin.org/projects/jellyfin-android/jellyfin-androidtv/">
-<img alt="Translation Status" src="https://translate.jellyfin.org/widgets/jellyfin-android/-/jellyfin-androidtv/svg-badge.svg"/>
-</a>
-<br/>
-<a href="https://opencollective.com/jellyfin">
-<img alt="Donate" src="https://img.shields.io/opencollective/all/jellyfin.svg?label=backers"/>
-</a>
-<a href="https://features.jellyfin.org">
-<img alt="Feature Requests" src="https://img.shields.io/badge/fider-vote%20on%20features-success.svg"/>
-</a>
-<a href="https://matrix.to/#/+jellyfin:matrix.org">
-<img alt="Chat on Matrix" src="https://img.shields.io/matrix/jellyfin:matrix.org.svg?logo=matrix"/>
-</a>
-<br/>
-<a href="https://play.google.com/store/apps/details?id=org.jellyfin.androidtv">
-<img width="153" alt="Jellyfin on Google Play" src="https://jellyfin.org/images/store-icons/google-play.png"/>
-</a>
-<a href="https://www.amazon.com/gp/aw/d/B07TX7Z725">
-<img width="153" alt="Jellyfin on Amazon Appstore" src="https://jellyfin.org/images/store-icons/amazon.png"/>
-</a>
-<a href="https://f-droid.org/en/packages/org.jellyfin.androidtv/">
-<img width="153" alt="Jellyfin on F-Droid" src="https://jellyfin.org/images/store-icons/fdroid.png"/>
-</a>
-<br/>
-<a href="https://repo.jellyfin.org/releases/client/androidtv/">Download archive</a>
-</p>
-
-Jellyfin for Android TV is a Jellyfin client for Android TV, Nvidia Shield, and Amazon Fire TV devices. We welcome all contributions and pull
-requests! If you have a larger feature in mind please open an issue so we can discuss the implementation before you start. 
 
 ## Building
 
